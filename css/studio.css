@@ -159,6 +159,10 @@ li {
   transition: 300ms;
 }
 
+.services__button:focus {
+  background-color: #188CE8;
+}
+
 /* Skills */
 
 .skill-list {
