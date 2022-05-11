@@ -11,7 +11,9 @@ body {
 /* Global style */
 
 .container {
-  max-width: 1200px;
+  max-width: 1230px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin: 0 auto;
 }
 
@@ -73,7 +75,7 @@ body::-webkit-scrollbar-thumb {
   letter-spacing: 0.03em;
 }
 
-.headerspan {
+.headerrow {
   color: #2196f3;
 }
 
@@ -134,13 +136,14 @@ body::-webkit-scrollbar-thumb {
 }
 
 .services__title {
-  font-weight: 900;
-  line-height: 60px;
-  text-align: center;
-  letter-spacing: 0.06em;
-  font-size: 44px;
-  color: #fff;
   margin-bottom: 30px;
+  text-align: center;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  color: #FFFFFF;
 }
 
 .services__button {
@@ -151,18 +154,17 @@ body::-webkit-scrollbar-thumb {
   color: #fff;
   background-color: #2196f3;
   border: 0;
+  border-radius: 4px;
   transition: 300ms;
-
 
   cursor: pointer;
   font-weight: 700;
   font-size: 16px;
-  border-radius: 4px;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 .services__button:hover {
-  background-color: #006dc7;
+  background-color: #006fc9;
   transition: 300ms;
 }
 
@@ -177,8 +179,8 @@ body::-webkit-scrollbar-thumb {
 }
 
 .skill-list__item {
-  width: 270px;
   margin-right: 30px;
+  width: 270px;
 }
 
 .skill-list__item:last-child {
@@ -312,7 +314,7 @@ body::-webkit-scrollbar-thumb {
   color: #2196F3;
 }
 
-.footerspan {
+.footerrow {
   color: #ffffff;
 }
 
